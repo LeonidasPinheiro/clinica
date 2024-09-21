@@ -22,6 +22,9 @@ class AppointmentController extends AppBaseController
         $this->appointmentRepository = $appointmentRepo;
     }
 
+    /*
+     * Teste
+     */
     public function store(CreateWebAppointmentRequest $request)
     {
         $input = $request->all();
